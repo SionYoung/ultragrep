@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{84dc44a9-c2b9-473e-a546-a04dd83c04bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{1ba9c8aa-6075-4f54-9630-a67421525f75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{b2dc7dd9-543f-471c-9d2a-9d6fd1dfecb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{fd52c9c5-9fe6-429a-b942-bcb7b5227205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scanners">
+      <UniqueIdentifier>{226ec26d-ce0a-4559-9990-6c044c113a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scanners">
+      <UniqueIdentifier>{4f732be9-4663-4bdf-a714-d39d7404fff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scanners\MultiThread">
+      <UniqueIdentifier>{eee5b60e-3fee-4585-b7b3-352268d7d479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scanners\SingleThread">
+      <UniqueIdentifier>{7a6bc420-0af1-46e2-98b1-7fd567bd43a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ultragrep.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppWrapper.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCommand.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP20Scanner.cpp">
+      <Filter>Source Files\Scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="WIN32Scanner.cpp">
+      <Filter>Source Files\Scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="ScannerAdaptor.hpp">
+      <Filter>Header Files\Scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleThreadScanner.cpp">
+      <Filter>Source Files\Scanners</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleApp.hpp">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCommand.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportItem.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.hpp">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Scanner.hpp">
+      <Filter>Header Files\Scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiThreadScanner.hpp">
+      <Filter>Header Files\Scanners\MultiThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CPP20Scanner.hpp">
+      <Filter>Header Files\Scanners\MultiThread</Filter>
+    </ClInclude>
+    <ClInclude Include="WIN32Scanner.hpp">
+      <Filter>Header Files\Scanners\MultiThread</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleThreadScanner.hpp">
+      <Filter>Header Files\Scanners\SingleThread</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.hpp">
+      <Filter>Header Files\Scanners\MultiThread</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
